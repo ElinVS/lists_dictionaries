@@ -106,4 +106,22 @@ print(eriks_new_dog)
 
 # 10. Add another person to the users dictionary
 
+another_user = {"Elin": {
+    "twitter": "shedoesnottweet",
+    "lottery_numbers": [3, 13, 2, 22, 8, 88],
+    "home_town": "Jonkoping",
+    "pets": [
+      {
+        "name": "billy",
+        "species": "dog"
+      }
+    ]
+  }
+}
+
+users.update(another_user)
+
+print(users)
+
+
 
