@@ -81,6 +81,13 @@ for number in avrils_lottery_numbers:
 print(even_number)
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+
+eriks_lottery_number = users["Erik"]["lottery_numbers"]
+
+eriks_lottery_number.append(7)
+
+print(eriks_lottery_number)
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
