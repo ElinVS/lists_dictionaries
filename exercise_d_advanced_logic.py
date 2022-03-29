@@ -15,6 +15,19 @@ print(even_number)
 
 # 2. Print the difference between the largest and smallest value:
 
+#sort the list
+#what is the smalles number?
+#what is the largest number?
+
+
+largest_number = max(numbers)
+smallest_number = min(numbers)
+
+
+difference = largest_number - smallest_number 
+
+print(difference)
+
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
